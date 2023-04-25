@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenFinalApp.Views.PreguntaPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Bienvenido Compañero!"
+        <StackLayout BackgroundColor="White">
+            <Label Text="Bienvenido Examen!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="Txtquestion" Placeholder="Question" PlaceholderColor="Black" ></Entry>
+            <Entry x:Name="Txtanswer" Placeholder="Answer" PlaceholderColor="Black"  TextColor="White" ></Entry>
+            <Button x:Name="Add" Text="add" TextColor="black" BackgroundColor="Transparent"  Clicked="Add_Clicked"    ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

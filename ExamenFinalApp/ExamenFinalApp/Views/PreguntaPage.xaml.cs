@@ -16,5 +16,12 @@ namespace ExamenFinalApp.Views
         {
             InitializeComponent();
         }
+
+        private async void Add_Clicked(object sender, EventArgs e)
+        {
+            bool R = await ViewModels
+
+
+        }
     }
 }
